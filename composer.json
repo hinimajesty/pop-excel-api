@@ -1,0 +1,21 @@
+{   
+    "name": "hinimajesty/popExcelApi",
+    "type": "class level API", 
+    "description": "popExcelApi is a very simple and easy to expand excel API for extracting data column by column", 
+    "keywords": ["PHP","Class", "API", "EXCEL", "CSV"], 
+    "license":"MIT",
+    "authors":[
+        {
+            "name": "Hini Majesty", 
+            "email": "majesty.dev@gmail.com"
+        }
+    ], 
+    "require" : {
+            "php" : ">=5.3"
+        }, 
+    "autoload": {
+        "psr-4":{
+            "Lixweb\\":"src/"
+        }
+    }
+}
