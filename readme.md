@@ -10,6 +10,8 @@ Download the ZIP file from Github and extract into your project. On every script
 
 ## Basic Useage 
 ```php
+require_once '../vendor/autoload.php';
+
 use Lixweb\Helpers;
 use Lixweb\popExcelApiContract; 
 use Lixweb\popExcelApi; 
