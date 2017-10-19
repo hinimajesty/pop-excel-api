@@ -38,9 +38,8 @@ class Helpers {
           $file_ext = $this->getExtension( ); 
           if( $file_ext == $this->allowed_extension ){
             return true; 
-          } else {
+          } 
             return false; 
-          }
      }
 
      /**
