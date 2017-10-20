@@ -14,6 +14,9 @@ In html, you would have a file input field with a name attribute, in this exampl
 ```html
 <input type="file" name="excel_file">
 ```
+
+Next, in the php script that the data would be sent to, you can extract the data this way: 
+
 ```php
 require_once '../vendor/autoload.php';
 
