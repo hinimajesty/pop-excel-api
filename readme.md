@@ -9,6 +9,11 @@ Download the ZIP file from Github and extract into your project. On every script
 **Note : Composer was used to manage the autoloading of classes asuch it may be required for a smooth operation. If you are new to composer, just follow the basic useage examples in this document. 
 
 ## Basic Useage 
+In html, you would have a file input field with a name attribute, in this example our file input field has the name excel_file; 
+
+```html
+<input type="file" name="excel_file">
+```
 ```php
 require_once '../vendor/autoload.php';
 
