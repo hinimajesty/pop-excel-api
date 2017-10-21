@@ -16,5 +16,5 @@ $form_input_field = 'excel_file';
 
 $excelApi = new popExcelApi($form_input_field); 
 
-$x = $excelApi->getContacts();
+$x = $excelApi->getNames();
 var_dump($x);

@@ -62,6 +62,13 @@ class Helpers {
       */
       
       public function getDataByColumn($column_index){
+
+        # allow user to provide human readable index 
+        # that matches columns. i.e index 1 = column 1 
+        # transpose to its array equivalent 
+        
+        $column_index = $column_index - 1; 
+
           if( ! $this->isEmpty( ) ){
             $this->file_data = fopen($_FILES[$this->form_input_field]["tmp_name"], "r");
              if( $this->isValidExt() ){
