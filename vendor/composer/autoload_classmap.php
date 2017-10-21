@@ -6,7 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Lixweb\\Helpers' => $baseDir . '/src/Helpers.php',
-    'Lixweb\\popExcelApi' => $baseDir . '/src/popExcelApi.php',
-    'Lixweb\\popExcelApiContract' => $baseDir . '/src/popExcelApiContract.php',
 );

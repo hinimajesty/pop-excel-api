@@ -20,18 +20,11 @@ class ComposerStaticInit068377531b3a79ec929d0bd8e1ca8f0b
         ),
     );
 
-    public static $classMap = array (
-        'Lixweb\\Helpers' => __DIR__ . '/../..' . '/src/Helpers.php',
-        'Lixweb\\popExcelApi' => __DIR__ . '/../..' . '/src/popExcelApi.php',
-        'Lixweb\\popExcelApiContract' => __DIR__ . '/../..' . '/src/popExcelApiContract.php',
-    );
-
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit068377531b3a79ec929d0bd8e1ca8f0b::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit068377531b3a79ec929d0bd8e1ca8f0b::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit068377531b3a79ec929d0bd8e1ca8f0b::$classMap;
 
         }, null, ClassLoader::class);
     }
