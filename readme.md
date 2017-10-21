@@ -53,9 +53,9 @@ After this is done, in the popExcelApi.php file i would provide an implementatio
 
 ```php 
 public function getAddress( ){
- return $this->address_arr = $this->getDataByColumn( 2 );
+ return $this->address_arr = $this->getDataByColumn( 3 );
 }
 ```
-Since the count of the columns begins at index 0, the third column is number 2, Giving that the first one is number 0. 
+Since the count of the columns begins at index 1, the third column is number 3, Giving that the first one is number 1. 
 
 Voila, that is all you need to do, now you can go ahead and use that new function in your application. Make pull requests, add features, correct the code; Just hack something @dirtyScreen regards.... :)
