@@ -2,7 +2,7 @@
 
 require_once '../vendor/autoload.php'; 
  
-#make available the following classes 
+/* make available the following classes */ 
 use Lixweb\Helpers;
 use Lixweb\popExcelApiContract; 
 use Lixweb\popExcelApi; 
