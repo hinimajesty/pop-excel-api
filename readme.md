@@ -34,7 +34,7 @@ From this example, the excel file contains in its first column names, and the se
 
 
 ## Error codes 
-By default the getDataByColumn function would return two types of errors. When it returns "err2", it means the name of the file has not been set. Since this is done implicitly hardly would you come accross this error in development but it is good to know incase you want to edit the code. Incase "err1" is returned, this means the extension of the file is invalid. We are expecting csv files only. Any other file type would not be processed asuch the error err1 would be returned. 
+By default the getDataByColumn function would return two types of errors. When it returns "err2", it means the name of the file has not been set. Since this is done implicitly hardly would you come accross this error in development but it is good to know incase you want to edit the code. Incase "err1" is returned, this means the extension of the file is invalid. We are expecting csv files only. Any other file type would not be processed asuch the error "err1" would be returned. 
 
 ## Extending the existing functionalities 
 As said earlier, you can get data from only 2 columns. The column count begins at 1. If your csv file has more columns you can provide more descriptive methods for accessing such columns. This can be done in the popExcelApiContract.php and popExcelApi.php file. Assuming my excel file contains a third column for address, in the popExcelApiContract.php file in src directory i would add a new contract i.e a method signature e.g:
