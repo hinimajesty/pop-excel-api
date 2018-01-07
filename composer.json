@@ -1,5 +1,5 @@
 {   
-    "name": "hinimajesty/popExcelApi",
+    "name": "hinimajesty/pop-excel-api",
     "type": "class level API", 
     "description": "popExcelApi is a very simple and easy to expand excel API for extracting data column by column", 
     "keywords": ["PHP","Class", "API", "EXCEL", "CSV"], 
