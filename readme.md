@@ -52,4 +52,4 @@ public function getAddress( ){
 ```
 Since the count of the columns begins at index 1, the third column is number 3.  
 
-Voila, that is all you need to do, now you can go ahead and use that new function in your application. Make pull requests, add features, correct the code; Just hack something @dirtyScreen regards.... :)
+Voila, that is all you need to do, now you can go ahead and use that new function in your application. Make pull requests, add features, correct the code; Just hack something... 
