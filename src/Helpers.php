@@ -61,7 +61,7 @@ class Helpers {
       * @return string err2
       */
       
-      public function getDataByColumn($column_index){
+      public function getDataFromColumn($column_index){
 
         # allow user to provide human readable index 
         # that matches columns. i.e index 1 = column 1 
@@ -83,6 +83,5 @@ class Helpers {
           }
          return "err2"; 
       }
-
 
 } #end of Helpers class 

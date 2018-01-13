@@ -9,15 +9,12 @@ abstract class popExcelApiContract extends Helpers {
   protected $form_input_field  = ''; 
   protected $excel_resource    = ''; 
   protected $dataInColumn      = [];
-  protected $names_arr         = []; 
-  protected $contacts_arr      = [];
 
   /**
    * set the name of the excel file
    *
    * @param string $file_name
    */
-
    abstract protected function getFileName(); 
 
    /**
@@ -33,5 +30,4 @@ abstract class popExcelApiContract extends Helpers {
     * @return array $contacts
     */
   abstract public function getContacts(); 
-
 }

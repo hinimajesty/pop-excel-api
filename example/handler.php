@@ -17,4 +17,8 @@ $form_input_field = 'excel_file';
 $excelApi = new popExcelApi($form_input_field); 
 
 $x = $excelApi->getNames();
+
+/**
+ * Output the data on the web page 
+ */
 var_dump($x);
