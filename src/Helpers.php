@@ -62,6 +62,8 @@ class Helpers {
       */
       
       public function getDataFromColumn($column_index){
+        #reset returnedData array 
+        $this->dataInColumn = []; 
 
         # allow user to provide human readable index 
         # that matches columns. i.e index 1 = column 1 
