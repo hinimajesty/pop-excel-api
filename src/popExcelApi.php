@@ -17,11 +17,11 @@ class popExcelApi extends popExcelApiContract {
    }
     
    public function getNames( ) {
-     return $this->getDataByColumn( 1 );      
+     return $this->getDataFromColumn( 1 );      
    }
 
     public function getContacts( ){
-     return $this->getDataByColumn( 2 );
+     return $this->getDataFromColumn( 2 );
     }
 
 } #end of popExcelApi Class 
